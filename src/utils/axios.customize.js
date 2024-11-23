@@ -44,7 +44,9 @@
 
 import axios from "axios";
 
-const baseURL = import.meta.env.VITE_BECKEND_URL;
+//const baseURL = import.meta.env.VITE_BECKEND_URL;
+
+const baseURL = "http://localhost:8080/web-app-config/api/v1"
 const config = {
   baseURL: baseURL,
   timeout: 3000000,
