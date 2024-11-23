@@ -6,7 +6,7 @@ const createUserApi = (request) => {
 }
 
 const loginApi = (request) => {
-    const URL_API = "/auths/authenticate";
+    const URL_API = "/auths/login";
     return axios.post(URL_API, request)
 }
 
