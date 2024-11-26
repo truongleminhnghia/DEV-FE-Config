@@ -1,0 +1,26 @@
+
+.container {
+    width: 1152px;
+    margin: 0 auto;
+    max-width: calc(100% - 24px);
+}
+
+.container-content {
+    width: 100%;
+}
+
+.header {
+    width: 100%;
+    background-color: aquamarine;
+    height: 70px;
+}
+
+/* flex */
+
+.d-flex {
+    display: flex;
+}
+
+.h-full {
+    height: 100% !important;
+}
