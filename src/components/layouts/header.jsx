@@ -15,10 +15,10 @@ const Header = () => {
       icon: <MailOutlined />,
     },
     {
-        label: <Link to={"/user"}>Users</Link>,
-        key: "user",
-        icon: <MailOutlined />,
-      },
+      label: <Link to={"/user"}>Users</Link>,
+      key: "user",
+      icon: <MailOutlined />,
+    },
     {
       label: "Welcom",
       key: "SubMenu",
@@ -42,12 +42,16 @@ const Header = () => {
     setCurrent(e.key);
   };
   return (
-    <Menu
-      onClick={onClick}
-      selectedKeys={[current]}
-      mode="horizontal"
-      items={items}
-    />
+    <div className="header">
+      <div className="container row item-center ">
+        <Menu className="h-full"
+          onClick={onClick}
+          selectedKeys={[current]}
+          mode="horizontal"
+          items={items}
+        />
+      </div>
+    </div>
   );
 };
 export default Header;

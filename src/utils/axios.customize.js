@@ -46,8 +46,8 @@ import axios from "axios";
 
 //const baseURL = import.meta.env.VITE_BECKEND_URL;
 // https://be-dev-v98i.onrender.com
-//const baseURL = "http://localhost:8080/web-app-config/api/v1"
-const baseURL = "https://be-dev-v98i.onrender.com/web-app-config/api/v1"
+const baseURL = "http://localhost:8080/web-app-config/api/v1"
+//const baseURL = "https://be-dev-v98i.onrender.com/web-app-config/api/v1"
 const config = {
   baseURL: baseURL,
   timeout: 3000000,
